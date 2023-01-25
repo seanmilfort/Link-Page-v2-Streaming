@@ -45,7 +45,7 @@ const socials = [
 
 const SocialLinks = () => {
     return (<Box marginTop="2em" >
-        <HStack spacing={4}>
+        <HStack spacing={4} style={{justifyContent: "center", alignItems: "center"}}>
             {socials.map(socialMediaLinks => {
                 return <Box key={socialMediaLinks.url}><a href={socialMediaLinks.url}><FontAwesomeIcon icon={socialMediaLinks.icon} size="2x" /></a></Box>
             })}
