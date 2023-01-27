@@ -8,7 +8,8 @@ import {
     faInstagram,
     faYoutube,
     faTiktok,
-    faGithub
+    faGithub,
+    faMastodon
   } from "@fortawesome/free-brands-svg-icons";
 
 const socials = [
@@ -33,6 +34,10 @@ const socials = [
       url: "https://www.linkedin.com/in/seanmilfort",
     },
     {
+      icon: faMastodon,
+      url: "https://techhub.social/@seanmilfort",
+    },
+    {
         icon: faGithub,
         url: "https://github.com/seanmilfort",
       },
@@ -47,7 +52,7 @@ const SocialLinks = () => {
     return (<Box marginTop="2em" >
         <HStack spacing={4} style={{justifyContent: "center", alignItems: "center"}}>
             {socials.map(socialMediaLinks => {
-                return <Box key={socialMediaLinks.url}><a href={socialMediaLinks.url}><FontAwesomeIcon icon={socialMediaLinks.icon} size="2x" /></a></Box>
+                return <Box key={socialMediaLinks.url}><a rel="me" href={socialMediaLinks.url}><FontAwesomeIcon icon={socialMediaLinks.icon} size="2x" /></a></Box>
             })}
         </HStack>
     </Box>)
