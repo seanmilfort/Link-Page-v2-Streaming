@@ -54,7 +54,7 @@ const SocialLinks = () => {
             {socials.map(socialMediaLinks => {
                 return <Box key={socialMediaLinks.url}><a rel="noopener" href={socialMediaLinks.url}><FontAwesomeIcon icon={socialMediaLinks.icon} size="2x" /></a></Box>
             })}
-            <Box key="https://techhub.social/@seanmilfort"><a rel="me noopener" href="https://techhub.social/@seanmilfort"><FontAwesomeIcon icon="faMastodon" size="2x" /></a></Box>
+            <Box key="https://techhub.social/@seanmilfort"><a rel="me noopener" href="https://techhub.social/@seanmilfort"><FontAwesomeIcon icon={faMastodon} size="2x" /></a></Box>
         </HStack>
     </Box>)
 }
