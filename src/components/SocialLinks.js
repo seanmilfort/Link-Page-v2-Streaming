@@ -33,10 +33,10 @@ const socials = [
       icon: faLinkedin,
       url: "https://www.linkedin.com/in/seanmilfort",
     },
-    // {
-    //   icon: faMastodon,
-    //   url: "https://techhub.social/@seanmilfort",
-    // },
+    {
+      icon: faMastodon,
+      url: "https://techhub.social/@seanmilfort",
+    },
     {
         icon: faGithub,
         url: "https://github.com/seanmilfort",
@@ -54,7 +54,6 @@ const SocialLinks = () => {
             {socials.map(socialMediaLinks => {
                 return <Box key={socialMediaLinks.url}><a rel="noopener" href={socialMediaLinks.url}><FontAwesomeIcon icon={socialMediaLinks.icon} size="2x" /></a></Box>
             })}
-            <Box key="https://techhub.social/@seanmilfort"><a rel="me noopener" href="https://techhub.social/@seanmilfort"><FontAwesomeIcon icon={faMastodon} size="2x" /></a></Box>
         </HStack>
     </Box>)
 }
