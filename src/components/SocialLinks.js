@@ -1,50 +1,30 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import { HStack, Box } from "@chakra-ui/react";
 import {
     faTwitter,
-    faLinkedin,
     faInstagram,
     faYoutube,
     faTiktok,
-    faGithub,
-    faMastodon
   } from "@fortawesome/free-brands-svg-icons";
 
 const socials = [
+  {
+    icon: faYoutube,
+    url: "https://www.youtube.com/@omgitzseanize",
+  },
     {
       icon: faTwitter,
-      url: "https://twitter.com/seanmilfort",
+      url: "https://twitter.com/omgitzseanzie",
     },
     {
       icon: faInstagram,
-      url: "https://www.instagram.com/seanmilfort/",
-    },
-    {
-      icon: faYoutube,
-      url: "https://www.youtube.com/@seanmilfort",
+      url: "https://www.instagram.com/omgitzseanzie/",
     },
     {
       icon: faTiktok,
-      url: "https://www.tiktok.com/@seanmilfort",
-    },
-    {
-      icon: faLinkedin,
-      url: "https://www.linkedin.com/in/seanmilfort",
-    },
-    {
-      icon: faMastodon,
-      url: "https://techhub.social/@seanmilfort",
-    },
-    {
-        icon: faGithub,
-        url: "https://github.com/seanmilfort",
-      },
-    {
-        icon: faEnvelope,
-        url: "mailto: seanmilfort@me.com",
-      }
+      url: "https://www.tiktok.com/@omgitzseanzie",
+    }
   ];
 
 
