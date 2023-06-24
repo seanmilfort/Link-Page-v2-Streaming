@@ -6,6 +6,7 @@ import {
     faInstagram,
     faYoutube,
     faTiktok,
+    faFacebook,
   } from "@fortawesome/free-brands-svg-icons";
 
 const socials = [
@@ -16,6 +17,10 @@ const socials = [
     {
       icon: faTwitter,
       url: "https://twitter.com/omgitzseanzie",
+    },
+    {
+      icon: faFacebook,
+      url: "https://facebook.com/omgitzseanzie",
     },
     {
       icon: faInstagram,
