@@ -5,7 +5,11 @@ const socials = [
     {
       text: "Watch Me Live on YouTube!",
       url: "https://www.youtube.com/@OMGitzSEANZIE/live/",
-    }
+    },
+    {
+        text: "Coming Soon to Kick!",
+        url: "https://kick.com/omgitzseanzie",
+      }
   ];
 
 
