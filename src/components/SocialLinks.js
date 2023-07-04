@@ -12,7 +12,7 @@ import {
 const socials = [
   {
     icon: faYoutube,
-    url: "https://www.youtube.com/@omgitzseanize",
+    url: "https://www.youtube.com/@omgitzseanzie",
   },
     {
       icon: faTwitter,
