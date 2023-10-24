@@ -7,13 +7,18 @@ import {
     faYoutube,
     faTiktok,
     faFacebook,
-    faThreads
+    faThreads,
+    faTwitch
   } from "@fortawesome/free-brands-svg-icons";
 
 const socials = [
   {
     icon: faYoutube,
     url: "https://www.youtube.com/@omgitzseanzie",
+  },
+  {
+    icon: faTwitch,
+    url: "https://www.twitch.tv/@omgitzseanzie",
   },
     {
       icon: faXTwitter,
