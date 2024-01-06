@@ -7,15 +7,15 @@ const socials = [
       url: "https://www.youtube.com/@OMGitzSEANZIE/live/",
     },
     {
-        text: "Watch Me Live to Twitch!",
+        text: "Watch Me Live on Twitch!",
         url: "https://twitch.tv/omgitzseanzie",
     },
     {
-        text: "Watch Me Live Kick!",
+        text: "Watch Me Live on Kick!",
         url: "https://kick.com/omgitzseanzie",
     },
     {
-        text: "Watch Me Live Facebook!",
+        text: "Watch Me Live on Facebook!",
         url: "https://facebook.com/omgitzseanzie",
     }
   ];
