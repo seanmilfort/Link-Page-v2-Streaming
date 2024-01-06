@@ -7,13 +7,17 @@ const socials = [
       url: "https://www.youtube.com/@OMGitzSEANZIE/live/",
     },
     {
-        text: "Coming Soon Back to Twitch!",
+        text: "Watch Me Live to Twitch!",
         url: "https://twitch.tv/omgitzseanzie",
     },
     {
         text: "Watch Me Live Kick!",
         url: "https://kick.com/omgitzseanzie",
     },
+    {
+        text: "Watch Me Live Facebook!",
+        url: "https://facebook.com/omgitzseanzie",
+    }
   ];
 
 
@@ -21,7 +25,7 @@ const SocialButtons = () => {
     return (<Box marginTop="2em" >
         <VStack spacing={4}>
             {socials.map(socialMediaLinks => {
-                return <Box key={socialMediaLinks.url}><a href={socialMediaLinks.url}><Button style={{color: "#FBFFFE", backgroundColor: "#96031A", width: "400px"}}>{socialMediaLinks.text}</Button></a></Box>
+                return <Box key={socialMediaLinks.url}><a href={socialMediaLinks.url}><Button style={{color: "#FBFFFE", backgroundColor: "#96031A", width: "400px", maxWidth: "80%"}}>{socialMediaLinks.text}</Button></a></Box>
             })}
         </VStack>
     </Box>)
