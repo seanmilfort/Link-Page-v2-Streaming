@@ -22,7 +22,7 @@ const socials = [
   },
     {
       icon: faXTwitter,
-      url: "https://twitter.com/omgitzseanzie",
+      url: "https://x.com/omgitzseanzie",
     },
     {
       icon: faThreads,

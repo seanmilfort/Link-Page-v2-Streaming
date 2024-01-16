@@ -15,9 +15,17 @@ const socials = [
         url: "https://kick.com/omgitzseanzie",
     },
     {
+        text: "Watch Me Live on X!",
+        url: "https://x.com/omgitzseanzie",
+    },
+    {
         text: "Watch Me Live on Facebook!",
         url: "https://facebook.com/omgitzseanzie",
-    }
+    },
+    {
+        text: "Watch Me Live on Instagram!",
+        url: "https://instagram.com/omgitzseanzie",
+    },
   ];
 
 
